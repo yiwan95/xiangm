@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "号卡办理"
+			}
+		}, {
+			"path": "pages/kefu/kefu",
+			"style": {
+				"navigationBarTitleText": "号卡办理"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "号卡办理"
+			}
+		}, {
+			"path": "pages/handle/handle",
+			"style": {
+				"navigationBarTitleText": "号卡办理"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "red",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/home_d.png",
+				"selectedIconPath": "static/home_active.png",
+				"text": "首页"
+
+			},
+			{
+				"pagePath": "pages/kefu/kefu",
+				"iconPath": "static/kf_d.png",
+				"selectedIconPath": "static/kf_active.png",
+				"text": "在线客服"
+			}, {
+				"pagePath": "pages/order/order",
+				"iconPath": "static/dd_d.png",
+				"selectedIconPath": "static/dd_active.png",
+				"text": "订单查询"
+			}
+		]
+	}
+
+}
