@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-92bb8f34 {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+.banner.data-v-92bb8f34 {
+  background: #fff;
+}
+.banner .banner-img.data-v-92bb8f34 {
+  width: 100%;
+  height: 18vh;
+}
+.home_menu.data-v-92bb8f34 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.home_menu view.data-v-92bb8f34 {
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rpx;
+  margin-bottom: 25rpx;
+}
+.home_menu view view.data-v-92bb8f34 {
+  display: flex;
+  width: 100rpx;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  background: #e7eefe;
+}
+.home_menu view view image.data-v-92bb8f34 {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+}
+.home_menu view view text.data-v-92bb8f34 {
+  margin-top: 10rpx;
+}
+.home_con.data-v-92bb8f34 {
+  background: #fff;
+  margin: 30rpx 0;
+  padding: 0 30rpx;
+}
+.home_con .con_row1.data-v-92bb8f34 {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  padding-top: 20rpx;
+}
+.home_con .con_row1 ._span.data-v-92bb8f34 {
+  color: red;
+  margin: 0 10rpx;
+}
+.home_con .con_row2.data-v-92bb8f34 {
+  width: 100%;
+  display: flex;
+  padding: 40rpx 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.home_con .con_row2 image.data-v-92bb8f34 {
+  width: 300rpx;
+  height: auto;
+  border-radius: 20rpx;
+}
+.home_con .con_row2 view.data-v-92bb8f34 {
+  width: auto;
+  margin-left: 20rpx;
+}
+.home_con .con_row2 view ._h1.data-v-92bb8f34 {
+  font-size: 18px;
+}
+.home_con .con_row2 view ._p.data-v-92bb8f34 {
+  font-size: 14px;
+  margin-top: 10rpx;
+}
+.home_con .con_row2 view button.data-v-92bb8f34 {
+  width: 200rpx;
+  font-size: 14px;
+  line-height: 65rpx;
+  background-color: #fe3404;
+  border-radius: 65rpx;
+  color: #feeae3;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 20rpx;
+}
+.home_con .con_row2 view button.data-v-92bb8f34:after {
+  border: none;
+}
+
